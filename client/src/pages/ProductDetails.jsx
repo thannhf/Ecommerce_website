@@ -76,7 +76,7 @@ const ProductDetails = () => {
               </h3>
               <h4 className="h4">
                 {currency}
-                {product.price}.00
+                {product.offerPrice}.00
               </h4>
             </div>
             <p className="max-w-[555px]">{product.description}</p>
